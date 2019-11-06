@@ -1,0 +1,38 @@
+<% include ./partials/header.ejs  %>
+
+<div class="ui main text container">
+ <h1 class="ui huge header">INFO BloG ApP</h1>
+<div class="ui top attached raised segment">
+
+ <% blog.forEach(function(b){ %>
+<div class="ui divided items">
+  <div class="item">
+ <div class="image"> <img class="centered rounded image" src="<%=b.image%>"></div>
+ 
+<div class="content">
+ <h3 class="header"> <strong> <%=b.title%></strong<> </h3>
+ 
+ <div class="meta">
+        <span><%=b.date.toDateString()%></span>
+      </div>
+
+ <div class="description"><p><span><%- b.desc.substring(0,50)%>.......</span></p></div>
+  
+<div class="extra">
+  <a class="ui inverted purple button" href="blog/<%= b._id%>">Learn-More <i class="chevron right icon"></i></a>
+</div> 
+
+ </div>
+
+                        </div> 
+                 </div>  
+ <% });%>
+ 
+ 
+ 
+     </div>
+</div>
+<% include ./partials/footer.ejs  %>
+
+
+
