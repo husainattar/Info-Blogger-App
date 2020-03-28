@@ -31,7 +31,7 @@ Install the Nodejs and MongoDB
 
 download package.json file and Run npm install to install dependencies.
 
-Run node <<filename>>.js and mongod in new terminal for to run the applcation and database respectively.
+Run node app.js and mongod in new terminal for to run the applcation and database respectively.
 
 
 
