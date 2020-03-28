@@ -4,11 +4,11 @@ A blogging application for learning and posting about new technologies out there
 This application was running on cloud9 server but after AWS bought it its now taken down to localhost.
 
 ### Features
-users can search for  the posts and Look for it.
-users can create , edit or delete their post.
+* users can search for  the posts and Look for it.
+* users can create , edit or delete their post.
 
 ### Tech Stack
-It is completely build over MEN stack (Mongodb,ExpressJs,Nodejs) and frontend is build using Semantic-UI.
+It is completely build over **MEN stack** (Mongodb,ExpressJs,Nodejs) and frontend is build using **Semantic-UI**.
 
 ### Routes (CRUD LOGIC)
 It have all the CRUD logic implemented.To check out the CRUD logic please go through the routes folder
