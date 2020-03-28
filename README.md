@@ -21,6 +21,8 @@ Schemas I have build is for users and blogs. You can check out the models folder
 
 ### Authentication
 For the Authentication it uses normal authentication configure with the Passport.js library to maintain sessions and authentication.
+passport-local is used to support local Strategy in the application.
+
 passport-local-mongoose package is used as a plugin to mongoose for simplifying the authentication process
 with mongoose.
 
